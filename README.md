@@ -2,11 +2,22 @@
 
 This project is a React SaaS template that includes various features and libraries to get you started with building a SaaS application.
 
+## Screenshots
+
+Mobile
+
+![image](https://github.com/piotreksda/react-dashboard-template/assets/23263384/ba3b8858-e28c-43cb-a7b4-4d36de7287e2)
+
+Desktop
+
+![image](https://github.com/piotreksda/react-dashboard-template/assets/23263384/ea155ce7-e1b7-4096-92e4-2f028d2414ec)
+
+
 ## Features
 
 - Navbar
 - Fake Login Page
-- Example of API Service
+- Example of API Service (http://rickandmortyapi.com - )
 - Routing
 - React Leaflet for Maps
 
@@ -38,7 +49,6 @@ This project is a React SaaS template that includes various features and librari
 - `eslint-plugin-react-hooks`: ^4.6.2
 - `eslint-plugin-react-refresh`: ^0.4.7
 - `postcss`: ^8.4.38
-- `tailwindcss`: ^3.4.4
 - `typescript`: ^5.2.2
 - `vite`: ^5.3.1
 ```
@@ -61,7 +71,7 @@ To start the development server with Vite, run:
 yarn dev
 ```
 
-This will run `vite --host`.
+This will run `vite --host` with https (confirmation to create a certificate may be required).
 
 ### Production Build
 
